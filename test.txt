@@ -1,0 +1,38 @@
+=== 8-Puzzle Solution Steps ===
+
+Trạng thái ban đầu:
+  0 1 3
+  4 2 6
+  7 5 8
+
+Trạng thái đích:
+  1 2 3
+  4 5 6
+  7 8 0
+
+Bước 1: Right
+  1 0 3
+  4 2 6
+  7 5 8
+  Thời gian bước 1: 0.10s
+
+Bước 2: Down
+  1 2 3
+  4 0 6
+  7 5 8
+  Thời gian bước 2: 0.51s
+
+Bước 3: Down
+  1 2 3
+  4 5 6
+  7 0 8
+  Thời gian bước 3: 0.51s
+
+Bước 4: Right
+  1 2 3
+  4 5 6
+  7 8 0
+  Thời gian bước 4: 0.51s
+
+Tổng số bước: 4
+Tổng thời gian: 2.15s
